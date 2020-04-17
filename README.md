@@ -29,4 +29,4 @@ A tip calculating console app.  This app includes:
 - if div by 15 print "fizzbuzz"
 
 ## App In Action
-![](https://i.imgur.com/6pKtM5R.png)
+![](https://i.imgur.com/qNkQcNM.png)
