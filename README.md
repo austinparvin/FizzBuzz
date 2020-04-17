@@ -1,25 +1,32 @@
-# Default Template for SDG .NET Course
+# Fizz Buzz Code Kata
 
-This is the default template for a simple .NET Core console app. This template has:
+A tip calculating console app.  This app includes:
 
-- github integration
+- [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 
-## To push to github
+- if/else iteration logic
+```C#
+  for (var i = 1; i <= 100; i++)
+      {
+        if (i % 15 == 0) {
+          Console.WriteLine("fizzbuzz");
+        } else if(i % 3 == 0){
+          Console.WriteLine("fizz");
+        } else if (i % 5 == 0) {
+          Console.WriteLine("buzz");
+        } else {
+          Console.WriteLine(i);
+        }
+      }
+```
 
-To create and push your current code to github, use the task `create-github`.
+## Problem
 
-How?
+- Count from 1 to 100
+- Check each num
+- if div by 3 print "fizz"
+- if div by 5 print "buzz"
+- if div by 15 print "fizzbuzz"
 
-1. Open your command pallette by using (Mac) `shift + cmd + p` or (Windows) `shift + ctrl + p`
-2. Search and Select `Tasks: Run Task`
-3. Select `create-github` from the dropdown
-
-This will create a new github repo, locally and up on github and also push your current code.
-
-## To turn in your assignment:
-
-after you have created a github repo, completed your project and pushed your code, follow these instructions: https://suncoast.io/handbook/tools/assignment-turn-in/
-
-## PROTIP:
-
-When you are complete with the project and have turned it in to your instructor, update this read me with details about the assignment.
+## App In Action
+![](https://i.imgur.com/6pKtM5R.png)
