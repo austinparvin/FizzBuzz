@@ -1,10 +1,23 @@
 # Fizz Buzz Code Kata
 
-A tip calculating console app.  This app includes:
+A console app used to solve this [kata](https://www.codewars.com/kata/5300901726d12b80e8000498)
+
+## Includes:
 
 - [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
+- [if/else iteration logic](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-else)
 
-- if/else iteration logic
+## Problem
+
+- Count from 1 to 100
+- Check each num
+- if div by 3 print "fizz"
+- if div by 5 print "buzz"
+- if div by 15 print "fizzbuzz"
+
+# Featured Code
+
+## If/Else Iteration Logic
 ```C#
   for (var i = 1; i <= 100; i++)
       {
@@ -19,14 +32,6 @@ A tip calculating console app.  This app includes:
         }
       }
 ```
-
-## Problem
-
-- Count from 1 to 100
-- Check each num
-- if div by 3 print "fizz"
-- if div by 5 print "buzz"
-- if div by 15 print "fizzbuzz"
 
 ## App In Action
 ![](https://i.imgur.com/qNkQcNM.png)
